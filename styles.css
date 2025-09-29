@@ -358,11 +358,35 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--nf-orange);outli
   width: 100%;
 }
 .cta-final {
-  background: var(--nf-black);
-  color: #fff;
+  background: linear-gradient(180deg, #fff 0%, #fef6f0 100%); 
+  color: #15171b;
   text-align: center;
   padding: 64px 16px;
+  border-top: 4px solid #ff7a00; 
 }
-.cta-final h2 { font-size: 1.6rem; margin-bottom: 1rem; }
-.cta-final p { font-size: 1rem; margin-bottom: 1.5rem; color: #ddd; }
-.cta-final .btn-primary { font-size: 1.1rem; }
+
+.cta-final h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  color: #0e0e10; 
+}
+
+.cta-final p {
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  color: #4a4f59;
+}
+
+.cta-final .btn-primary {
+  font-size: 1.1rem;
+  background: #ff7a00;
+  color: #fff;
+  padding: 0.9rem 1.4rem;
+  border-radius: 12px;
+  transition: background .3s ease;
+}
+
+.cta-final .btn-primary:hover {
+  background: #e56e00;
+}
